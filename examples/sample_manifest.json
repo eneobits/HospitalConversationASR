@@ -1,0 +1,14 @@
+[
+  {
+    "audio_filepath": "/path/to/audio_001.wav",
+    "transcript": "환자분 안녕하세요 오늘 어디가 불편하신가요",
+    "speaker_role": "doctor",
+    "split": "train"
+  },
+  {
+    "audio_filepath": "/path/to/audio_002.wav",
+    "transcript": "어제부터 기침이 있고 열이 났습니다",
+    "speaker_role": "patient",
+    "split": "validation"
+  }
+]

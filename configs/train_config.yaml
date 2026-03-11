@@ -1,0 +1,17 @@
+model_name: openai/whisper-large-v3-turbo
+train_manifest: data/train_manifest.json
+valid_manifest: data/valid_manifest.json
+output_dir: outputs/
+seed: 42
+batch_size: 8
+gradient_accumulation_steps: 2
+learning_rate: 1.0e-5
+max_steps: 1400
+eval_steps: 100
+save_steps: 100
+warmup_steps: 100
+logging_steps: 20
+early_stopping_patience: 3
+fp16: true
+language: ko
+task: transcribe

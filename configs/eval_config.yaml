@@ -1,0 +1,7 @@
+model_name: openai/whisper-large-v3-turbo
+test_manifest: data/test_manifest.json
+checkpoint_path: outputs/checkpoint-best
+batch_size: 8
+language: ko
+task: transcribe
+normalize_text: true

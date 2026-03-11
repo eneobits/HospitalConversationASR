@@ -1,0 +1,4 @@
+python scripts/preprocess.py --input_manifest examples/sample_manifest.json --output_manifest data/processed_manifest.json
+python scripts/train.py --config configs/train_config.yaml
+python scripts/evaluate.py --config configs/eval_config.yaml --checkpoint outputs/checkpoint-best
+python scripts/inference.py --audio_path /path/to/audio.wav --checkpoint outputs/checkpoint-best
